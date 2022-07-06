@@ -1,7 +1,7 @@
 """sample tests"""
-
 from django.test import SimpleTestCase
 from app import calc
+
 
 class CalcTests(SimpleTestCase):
 
@@ -14,5 +14,3 @@ class CalcTests(SimpleTestCase):
         res = calc.subtract(51, 40)
 
         self.assertEqual(res, 11)
-
-    
