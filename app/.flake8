@@ -1,0 +1,7 @@
+; to avoide some files from linting
+[flake8]
+exclude =
+  migrations,
+  __pycache__,
+  manage.py,
+  settings.py
