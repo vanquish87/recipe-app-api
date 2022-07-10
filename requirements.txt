@@ -8,3 +8,5 @@ uwsgi>=2.0.19,<2.1
 
 
 flake8>=3.9.2,<3.10
+
+drf-spectacular>=0.15,<0.16
